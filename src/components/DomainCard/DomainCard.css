@@ -1,0 +1,30 @@
+
+.Domain_Title{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 36px;
+    top: 22px;
+    position: relative;
+}
+.Domain_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Domain_col{
+    margin: 20px;
+    width: 327px;
+}
+@media only screen and  (max-width:1360px) {
+    .Domain_row{
+      
+        width: 100%;
+    margin-bottom: 20px;
+        
+    }
+}

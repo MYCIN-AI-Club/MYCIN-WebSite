@@ -1,0 +1,70 @@
+.Event_card{
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .Event_card-title{
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 16px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .Event_card:hover {
+        box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+        transition: all 0.7s linear;
+      }
+      
+    .Event_card-body {
+        padding: 2rem 0 !important;
+      }
+      
+    .Event_card-text {
+        padding: 0.3rem 3rem;
+        font-size: 1rem;
+        text-align: justify;
+      }
+      
+    .Event_cardwidth img {
+        padding: 0.3rem 1rem;
+        font-size: 1rem;
+       
+    }
+    .Event_btn{     
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        width: 167px;
+        padding: 6px;
+        color: #F5F5F5;
+        background: #72D1E2;
+        border: 2px solid;
+        border-radius: 3px;
+        transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    }  
+    .Event_btn:hover{
+      transform: scale(1.3);
+      cursor: pointer;
+    }
+      .Event_card-img-top {
+        width: 100%;
+        height: 230px;
+        /*transform: scale(1);
+        transition: all 0.2s ease-in-out;*/
+      }
+      
+     /* .Event_card-img-top:hover {
+        transform: scale(1.3);
+      }*/
+      @media only  screen and (max-width:849px) {
+        .Event_btn{
+          width: 122px; 
+             
+    }}

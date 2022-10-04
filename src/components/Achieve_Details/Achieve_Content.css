@@ -1,0 +1,39 @@
+
+.Achievement_Title{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 36px;
+    top: 22px;
+    position: relative;
+}
+.Achievement_row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Achievement_container {
+    margin: 50px;
+}
+.Achievement_col{
+    
+    margin: 20px;
+    width: 243px;
+    border-radius: 20px;
+    /* box-shadow: 2px 0px 20px 13px rgb(120 117 117 / 27%) !important; */
+    box-shadow: 2px 0px 20px 13px rgb(120 117 117 / 27%) !important;;
+}
+@media only screen and  (max-width:400px) {
+    .Achievement_row{
+        width: 100%;
+        width: 100%;
+    display: block;
+    margin-bottom: 20px;
+        
+    }
+}
