@@ -1,0 +1,39 @@
+.Resources_Title{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 36px;
+    top: 22px;
+    position: relative;
+}
+.Resources_Name{
+padding-left:200px;   
+padding-right: 200px; 
+color: rgba(0, 0, 0, 0.7);
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px
+}
+.Resources_Link li .alink{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+text-decoration-line: underline;
+
+color: #0EB0CC;
+}
+@media(max-width: 767px){
+    .Resources_Name{
+      padding-left:20px;
+      padding-right: 0px;
+  }
+  }

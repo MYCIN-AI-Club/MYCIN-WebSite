@@ -1,0 +1,10 @@
+.ContainerStyles{
+    width: 70%;
+    height :448px;
+    margin: 0 auto;
+}
+@media all and (max-width:812px) {
+    .ContainerStyles{
+        width: 100%;
+    }
+}

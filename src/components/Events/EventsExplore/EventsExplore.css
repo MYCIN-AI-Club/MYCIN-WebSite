@@ -1,0 +1,49 @@
+.EventExplore{
+  margin:2px;
+  padding: 20px;
+  text-align: -webkit-center;
+}
+.EventExplore_post{
+   padding: 25px;
+    
+}
+.EventExplore_img{
+    width: 70%;
+    height: 448px;
+    box-shadow: 5px 10px 20px 1px rgb(34 32 32 / 40%) !important;
+}
+.EventExplore_Title{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgba(0, 0, 0, 0.7);
+    
+    top: 22px;
+    position: relative;
+}
+.EventExplore_Name{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgba(0, 0, 0, 0.7);
+    
+    top: 22px;
+    position: relative;
+}
+.EventExplore_maincontent{
+    
+    /* border: 0px solid; */
+    padding: 20px;
+    width: 70%;
+    box-shadow: 5px 10px 20px 1px rgb(34 32 32 / 40%) !important;
+}
+.EventExplore_Content{
+   text-align: justify;
+   white-space: pre-line; /* for new line*/
+}

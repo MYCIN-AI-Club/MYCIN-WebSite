@@ -1,0 +1,10 @@
+.DomainSec{
+    width: 100%;
+    background: rgba(239, 250, 252, 0.8);
+}
+@media only  screen and  (max-width:1333px) {
+    .DomainSec{
+        height:100%;
+    }
+    
+}
