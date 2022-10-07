@@ -6,7 +6,7 @@
     }
     .Team_card-title{
       margin: 12px;
-      font-family: 'Open Sans';
+      /* font-family: 'Open Sans'; */
       font-style: normal;
       font-weight: 600;
       font-size: 19px;
@@ -17,11 +17,13 @@
     
     .Team_overflow{
       background: #72D1E2;
-    border-left: 2px solid;
-    border-right: 2px solid;
-    border-top: 2px solid;
-    border-radius: 14px;
-    border-color: aqua;
+    /* border-left: 2px solid; */
+    /* border-right: 2px solid; */
+    /* border-top: 2px solid; */
+    /* border-radius: 14px;x */
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    /* border-color: aqua; */
     }
     .Team_card:hover {
         box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
@@ -54,16 +56,20 @@
       .Team_card-img-top {
         width: 138px;
         height: 138px;
-        border:2px solid aqua;
+        /* border:2px solid aqua; */
         border-radius: 50%;
         position: relative;
         top: 34px;
-        transform: scale(1.0);
-        transition: transform 0.2s ease-in-out;
+        /* transform: scale(1.0); */
+        /* transition: transform 0.2s ease-in-out; */
       }
       
       .Team_card-img-top:hover {
         border-radius: 50%;
-        transform: scale(1.17);
+        /* transform: scale(1.17); */
+      }
+
+      .Team_card-body i{
+        color: #4c9dac;
       }
       

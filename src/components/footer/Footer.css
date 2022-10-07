@@ -24,7 +24,7 @@
 	width: 60%;
 }
 .footer-col h4{
-   font-family: 'Open Sans';
+   /* font-family: 'Open Sans'; */
    font-style: normal;
    font-weight: 700;
    line-height: 18px;
@@ -54,7 +54,7 @@
 	width: 166px;
 }
 .footer-col ul li a, .footer-item{
-    font-family: 'Open Sans';
+    /* font-family: 'Open Sans'; */
     font-style: normal;
     font-weight: 600;
 	font-size: 16px;

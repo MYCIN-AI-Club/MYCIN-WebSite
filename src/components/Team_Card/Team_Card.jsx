@@ -23,7 +23,7 @@ const Team_Card=({ imageSource, title, text, url1,url2,url3 })=>{
               className="Team_btni"
               rel="noreferrer"
             >
-              <button className="Team_btn" title="github" ><i className="ri-github-fill"></i></button>
+              <i class="fa-brands fa-github"></i>
             </a>
             <a
               href={url2 ? url2 : "#!"}
@@ -31,7 +31,7 @@ const Team_Card=({ imageSource, title, text, url1,url2,url3 })=>{
               className="Team_btni"
               rel="noreferrer"
             >
-              <button className="Team_btn" title="Linkdin"><i className="ri-linkedin-box-fill"></i></button>
+              <i class="fa-brands fa-linkedin"></i>
             </a>
             <a
               href={url3 ? url3 : "#!"}
@@ -39,7 +39,7 @@ const Team_Card=({ imageSource, title, text, url1,url2,url3 })=>{
               className="Team_btni"
               rel="noreferrer"
             >
-              <button className="Team_btn" title="Instagram" ><i className="ri-instagram-fill"></i></button>
+              <i class="fa-brands fa-instagram"></i>
             </a>
             </div>
           </div>
