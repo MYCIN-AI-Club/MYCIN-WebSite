@@ -6,7 +6,7 @@
     }
     .Event_card-title{
     
-        font-family: 'Open Sans';
+        /* font-family: 'Open Sans'; */
         font-style: normal;
         font-weight: 600;
         font-size: 19px;
@@ -36,7 +36,7 @@
        
     }
     .Event_btn{     
-        font-family: 'Open Sans';
+        /* font-family: 'Open Sans'; */
         font-style: normal;
         font-weight: 600;
         font-size: 20px;

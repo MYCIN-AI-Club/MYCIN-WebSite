@@ -1,7 +1,9 @@
 .section1{
-    height: 700px;
+    height: 585px;
     /* margin-top: -10px; */
     background: white;
+    width: 95%;
+    margin: auto;
     
 }
 
@@ -9,12 +11,13 @@
     position: relative;
     z-index: 1;
     width: 40%;
-   
+   margin-top: 40px;
     margin-left: 68px;
     padding: 38px;
 }
 .home_title{
-font-family: 'Times New Roman';
+/* font-family: 'Times New Roman'; */
+
 font-style: normal;
 font-weight: 700;
 font-size: 27px;
@@ -25,8 +28,9 @@ left: 190px;
 top: 232px;
 }
 .information1{
-    text-align: justify;
-font-family: 'Open Sans';
+    width: 80%;
+    /* text-align: justify; */
+/* font-family: 'Open Sans'; */
 font-style: normal;
 font-weight: 400;
 font-size: 21px;
@@ -48,11 +52,11 @@ color: rgba(0, 0, 0, 0.7);
 .section1image img{
     
     width: 742px;
-    height: 632px;
+    height: 560px;
 }
 .btninside{
 
-font-family: 'Open Sans';
+/* font-family: 'Open Sans'; */
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
