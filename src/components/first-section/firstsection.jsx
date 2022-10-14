@@ -1,6 +1,7 @@
 import React from "react";
 import "./firstsection.css";
 import Firstim from "../../assests/landingimg2.svg";
+import { NavLink } from "react-router-dom";
 
 
 const firstSection = () => {
@@ -16,6 +17,7 @@ const firstSection = () => {
               Mycin is a student driven club since 2021 associated with KIET Innovative Centre focused on enhancing the practical knowledge of students by organizing the classes, seminar within the college. <br></br><br></br>The motive of the club is to create awareness about the upcoming technologies around the campus.
               
               </p>
+              <NavLink to='/Events' className="btn_home">Explore more <i class="fa-solid fa-angle-right angle_btn"></i> </NavLink>
              { /*<button className="btninside">Join us </button>*/}
             </div>
             

@@ -17,7 +17,7 @@
 }
 .home_title{
 /* font-family: 'Times New Roman'; */
-
+color:#72D1E2;
 font-style: normal;
 font-weight: 700;
 font-size: 27px;
@@ -26,6 +26,20 @@ letter-spacing: -0.01em;
 text-transform: uppercase;
 left: 190px;
 top: 232px;
+}
+
+.btn_home{
+    background-color: #72D1E2;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn_home:hover .angle_btn{
+    margin-left:2px;
 }
 .information1{
     width: 80%;
