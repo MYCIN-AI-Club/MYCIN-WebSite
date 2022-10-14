@@ -5,7 +5,7 @@
 }
 .tittleAnounce{
     text-align: center;
-    font-family: 'Open Sans';
+    /* font-family: 'Open Sans'; */
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -17,7 +17,7 @@
 }
 .eventdetails{
     text-align: justify;
-    font-family: 'Open Sans';
+    /* font-family: 'Open Sans'; */
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -26,7 +26,7 @@ line-height: 22px;
 color: rgba(0, 0, 0, 0.7);
 }
 .Event_name{
-    font-family: 'Open Sans';
+    /* font-family: 'Open Sans'; */
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -45,7 +45,7 @@ color: rgba(0, 0, 0, 0.7);
 }
 .registerbtn{
     
-font-family: 'Open Sans';
+/* font-family: 'Open Sans'; */
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
