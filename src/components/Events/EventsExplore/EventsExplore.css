@@ -17,33 +17,38 @@
     /* font-family: 'Open Sans'; */
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.5rem;
     line-height: 49px;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(96, 214, 243, 0.7);
+    margin: 0;
     
-    top: 22px;
-    position: relative;
+    /* top: 22px; */
+    /* position: relative; */
 }
 .EventExplore_Name{
     text-align: center;
-    font-family: 'Open Sans';
+    /* font-family: 'Open Sans'; */
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 1.5rem;
     line-height: 49px;
     color: rgba(0, 0, 0, 0.7);
-    
+    margin-top: 0px;
     top: 22px;
     position: relative;
+    margin-bottom: 50px;
 }
 .EventExplore_maincontent{
     
     /* border: 0px solid; */
-    padding: 20px;
-    width: 70%;
-    box-shadow: 5px 10px 20px 1px rgb(34 32 32 / 40%) !important;
+    padding: 40px;
+    width: 50%;
+    box-shadow: 0px 2px 5px 0px rgb(34 32 32 / 40%) !important;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .EventExplore_Content{
    text-align: justify;
+   width: 70%;
    white-space: pre-line; /* for new line*/
 }

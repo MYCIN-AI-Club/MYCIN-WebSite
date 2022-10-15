@@ -7,7 +7,7 @@
     display: block;
     height: 268px;
     width: 243px;
-    border: 2px solid #12f5ea;
+    /* border: 2px solid #12f5ea; */
     border-radius: 20px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .Achieve_image_overlay-primary {
-    background: #009578;
+    background: #7dbcc7;
 }
 
 .Achieve_image_overlay > * {
@@ -45,7 +45,7 @@
 
 .Achieve_image_overlay:hover {
     opacity: 1;
-    border: 2px solid   #12f5ea;
+    /* border: 2px solid   #12f5ea; */
     border-radius: 20px;    
 }
 
