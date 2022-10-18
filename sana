@@ -1,0 +1,121 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@sanjana786 
+freeCodeCamp
+/
+freeCodeCamp
+Public
+Code
+Issues
+150
+Pull requests
+53
+Actions
+Security
+3
+Insights
+freeCodeCamp/client/.babelrc.js /
+@ShaunSHamilton
+ShaunSHamilton feat(client): add pug to prism languages (#47910)
+Latest commit deb7fcc 10 days ago
+ History
+ 2 contributors
+@ShaunSHamilton@ojeytonwilliams
+ 76 lines (76 sloc)  1.45 KB
+
+require('dotenv').config({ path: '../.env' });
+const config = {
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        loose: true,
+        modules: false,
+        useBuiltIns: 'usage',
+        corejs: 2,
+        shippedProposals: true,
+        targets: {
+          browsers: ['>0.25%', 'not dead']
+        }
+      }
+    ],
+    [
+      '@babel/preset-react',
+      {
+        useBuiltIns: true,
+        pragma: 'React.createElement'
+      }
+    ],
+    '@babel/preset-typescript'
+  ],
+  plugins: [
+    'preval',
+    '@babel/plugin-syntax-dynamic-import',
+    'babel-plugin-macros',
+    [
+      '@babel/plugin-transform-runtime',
+      {
+        helpers: true,
+        regenerator: true
+      }
+    ],
+    [
+      'babel-plugin-transform-imports',
+      {
+        'react-bootstrap': {
+          transform: 'react-bootstrap/lib/${member}',
+          preventFullImport: true
+        }
+      }
+    ],
+    [
+      'prismjs',
+      {
+        languages: [
+          'clike',
+          'css',
+          'html',
+          'javascript',
+          'markup',
+          'mathml',
+          'pug',
+          'python',
+          'sql',
+          'svg',
+          'typescript',
+          'xml'
+        ],
+        theme: 'default',
+        css: true,
+        plugins: ['line-numbers']
+      }
+    ]
+  ]
+};
+if (
+  process.env.FREECODECAMP_NODE_ENV === 'development' &&
+  process.env.CODESEE === 'true'
+) {
+  config.plugins.push(['@codesee/instrument', { hosted: true }]);
+}
+module.exports = config;
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+freeCodeCamp/.babelrc.js at main · freeCodeCamp/freeCodeCamp
